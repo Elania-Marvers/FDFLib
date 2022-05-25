@@ -1,9 +1,17 @@
-#include "fdf.h"
+/*
+** *****************************************************************************
+** Elie <elie_alliena@blackcompanydev.fr>
+** BLACKCOMPANYDEV - 25/05/2022 00:00:00
+**
+** - LIBFDF  (LibFdF) -
+**
+** *****************************************************************************
+*/
 
+#include "fdf.h"
 
 int global_pointer_nb = 0;
 void **global_pointer_base;
-
 
 void *fdf_malloc(size_t		size)
 {
